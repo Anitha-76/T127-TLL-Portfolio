@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-127 Teaching and Learning Lab Practicum | Spring 2026 Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <script>
+        // Prevent browser scroll restoration on page refresh
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        // Immediate scroll to top before page renders
+        window.scrollTo(0, 0);
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="nav-logo">T-127: Teaching &amp; Learning Lab</div>
+            </div>
+            <div class="nav-links">
+                <a href="#" data-section="0">Home</a>
+                <a href="#" data-section="1">Learning Goals</a>
+                <a href="#" data-section="2">Projects</a>
+                <a href="#" data-section="3">Reflection</a>
+            </div>
+            <div class="section-counter">
+                <span class="current-section">1</span> / <span class="total-sections">4</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel Navigation Controls -->
+    <div class="carousel-controls">
+        <button class="carousel-btn carousel-prev" aria-label="Previous section">
+            <span>←</span>
+        </button>
+        <button class="carousel-btn carousel-next" aria-label="Next section">
+            <span>→</span>
+        </button>
+    </div>
+
+    <!-- Main Carousel Container -->
+    <div class="carousel-container">
+
+    <!-- Section 0: Hero/Home -->
+    <section class="carousel-section active" data-section-id="0">
+    <div id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Designing Learning That Lasts</h1>
+                <p class="hero-subtitle">A Portfolio of Instructional Design Practice at HGSE's Teaching and Learning Lab</p>
+                <p class="hero-byline">T-127 Teaching and Learning Lab Practicum<br>Spring 2026 · Harvard Graduate School of Education</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>Click to continue</span>
+                <div class="scroll-arrow">→</div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Section 1: Learning Goals -->
+    <section class="carousel-section" data-section-id="1">
+    <div id="position" class="position-section">
+        <div class="container">
+            <div class="position-narrative">
+
+                <!-- Learning Goals Heading -->
+                <div class="position-statement scroll-reveal">
+                    <h2>Course Learning Goals</h2>
+                    <div class="position-box">
+                        <p class="position-context">This practicum provides hands-on experience designing and developing curricular assets for online learning experiences as part of HGSE's Teaching and Learning Lab. Grounded in research-based design principles, students engage with real projects, develop a professional portfolio, and build practical instructional design skills alongside TLL faculty and staff.</p>
+                    </div>
+                </div>
+
+                <!-- Individual Learning Goals Grid -->
+                <div class="goals-grid">
+
+                    <div class="goal-card scroll-reveal">
+                        <div class="goal-number">Goal 01</div>
+                        <h3>Produce a Capstone Design Prototype</h3>
+                        <p>Produce a capstone design prototype that visualizes a learning experience, demonstrating the application of design principles learned throughout the practicum.</p>
+                    </div>
+
+                    <div class="goal-card scroll-reveal">
+                        <div class="goal-number">Goal 02</div>
+                        <h3>Conduct a Needs Analysis</h3>
+                        <p>Conduct a needs analysis and bring that analysis into course planning and stakeholder conversations to inform the design of effective learning experiences.</p>
+                    </div>
+
+                    <div class="goal-card scroll-reveal">
+                        <div class="goal-number">Goal 03</div>
+                        <h3>Design for a Specific Audience</h3>
+                        <p>Design for a specific audience by translating learner needs into concrete design requirements and decisions that shape every aspect of the learning experience.</p>
+                    </div>
+
+                    <div class="goal-card scroll-reveal">
+                        <div class="goal-number">Goal 04</div>
+                        <h3>Apply Learning Theories and Design Models</h3>
+                        <p>Apply core learning theories and instructional design models to make justified design choices in learning, connecting research to practice at every stage.</p>
+                    </div>
+
+                    <div class="goal-card scroll-reveal">
+                        <div class="goal-number">Goal 05</div>
+                        <h3>Incorporate Equity, Access, and Modality</h3>
+                        <p>Incorporate equity, access, and modality considerations into learning experience design choices, ensuring that learning is inclusive and accessible for all learners.</p>
+                    </div>
+
+                    <div class="goal-card scroll-reveal">
+                        <div class="goal-number">Goal 06</div>
+                        <h3>Collaborate on Real Client Projects</h3>
+                        <p>Collaborate effectively on a real client/stakeholder project: listen well, build rapport, meet deadlines, and contribute meaningfully to team deliverables.</p>
+                    </div>
+
+                    <div class="goal-card scroll-reveal">
+                        <div class="goal-number">Goal 07</div>
+                        <h3>Build a Professionally Relevant ePortfolio</h3>
+                        <p>Build a professionally relevant ePortfolio that documents artifacts, connects theory to practice, and reflects growth across the semester.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Section 2: Projects -->
+    <section class="carousel-section" data-section-id="2">
+    <div id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects: The Learning Journey</h2>
+            <p class="section-subtitle">Click each project to explore the details</p>
+
+            <!-- Capstone Project Card -->
+            <div class="capstone-project-card">
+                <div class="capstone-project-header">
+                    <span class="capstone-badge">Capstone Project</span>
+                    <h4>AI in Learning Design: From Exploration to Practice</h4>
+                </div>
+                <div class="capstone-project-body">
+                    <div class="capstone-section">
+                        <h5>Why This Project Matters</h5>
+                        <p>T127 is about getting hands-on experience creating learning materials while connecting what research says about learning. I chose AI in learning design because AI opens real opportunities to make learning more meaningful. Some of the challenges that I encountered during the leadership project could be overcome by using AI. When working with diverse groups of adult learners, made clear that learning materials and sessions need to actively construct mental models in learners. I believe most of those challenges could be addressed through thoughtful, AI-informed design. This project is my attempt to explore what that looks like in practice.</p>
+                    </div>
+                    <div class="capstone-section">
+                        <h5>Overarching Project Goals</h5>
+                        <ul>
+                            <li>Understand AI's role in learning design and what it means for how we create learning experiences</li>
+                            <li>Define what AI-fluent practice actually looks like for someone designing learning experiences</li>
+                            <li>Know when AI helps for analysis, brainstorming, production versus when human judgment is irreplaceable</li>
+                            <li>Conduct a needs analysis and translate findings into concrete learning design requirements</li>
+                            <li>Make informed choices on platforms and formats that serve the pedagogical purpose</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Game Recordings Section -->
+            <div class="game-recordings-section">
+                <div class="recordings-grid">
+                    <!-- Recording 1: Number System Converter -->
+                    <div class="recording-card">
+                        <div class="recording-header">
+                            <span class="recording-week">Week 1</span>
+                            <h4>Number System Converter</h4>
+                        </div>
+                        <div class="recording-video" data-video-label="Week 1: Number System Converter">
+                            <video controls width="100%" preload="metadata">
+                                <source src="videos/week1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-poster">
+                                <div class="poster-icon">▶</div>
+                                <div class="poster-label">Week 1 Demo</div>
+                            </div>
+                        </div>
+                        <div class="recording-info">
+                            <p>Interactive converter teaching:	Different fractions can show the same amount (1/2 = 2/4 = 4/8)
+, Fractions and decimals are two ways to express the same quantity and
+Physical comparison reveals equivalence clearly
+ visual representations.</p>
+                        </div>
+                        <button class="project-btn" data-project="1">Explore Project →</button>
+                    </div>
+
+                    <!-- Recording 2: Integer Game -->
+                    <div class="recording-card">
+                        <div class="recording-header">
+                            <span class="recording-week">Week 5</span>
+                            <h4>Integer Matching Space Game</h4>
+                        </div>
+                        <div class="recording-video" data-video-label="Week 5: Integer Matching Space Game">
+                            <video controls width="100%" preload="metadata">
+                                <source src="videos/week5.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-poster">
+                                <div class="poster-icon">▶</div>
+                                <div class="poster-label">Week 5 Demo</div>
+                            </div>
+                        </div>
+                        <div class="recording-info">
+                            <p>Three-card matching system showing spatial understanding of positive and negative integers.</p>
+                        </div>
+                        <button class="project-btn" data-project="2">Explore Project →</button>
+                    </div>
+
+                    <!-- Recording 3: Prime Numbers Game -->
+                    <div class="recording-card">
+                        <div class="recording-header">
+                            <span class="recording-week">Week 6</span>
+                            <h4>Prime Numbers Space Shooter</h4>
+                        </div>
+                        <div class="recording-video" data-video-label="Week 6: Prime Numbers Space Shooter">
+                            <video controls width="100%" preload="metadata">
+                                <source src="videos/week6.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-poster">
+                                <div class="poster-icon">▶</div>
+                                <div class="poster-label">Week 6 Demo</div>
+                            </div>
+                        </div>
+                        <div class="recording-info">
+                            <p>Gameplay footage showing hint system, achievements, and prime number identification mechanics.</p>
+                        </div>
+                        <button class="project-btn" data-project="3">Explore Project →</button>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Section 3: Reflection -->
+    <section class="carousel-section" data-section-id="3">
+
+    <div id="reflection" class="reflection-section">
+        <div class="container">
+
+            <!-- Weekly Reflections -->
+            <div class="critical-questions-section fade-in-up">
+
+                <!-- Module 1: Discover -->
+                <div class="expandable-question-card collapsed">
+                    <div class="question-collapse-header">
+                        <span class="question-number">1</span>
+                        <div class="question-preview">
+                            <h4 class="question-title">Discover</h4>
+                            <p class="question-source">Learning Theories in the Tamil Nadu School Leadership Programme</p>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand Discover module">
+                            <span class="toggle-icon">+</span>
+                        </button>
+                    </div>
+                    <div class="question-expanded-content">
+                        <div class="question-body-playful">
+
+                            <!-- Opening Quote -->
+                            <div class="big-quote scroll-reveal">
+                                <div class="quote-mark">"</div>
+                                <p class="quote-text">Good design requires holding theory and context in productive tension.</p>
+                                <p class="quote-attribution">— Reflection on the Tamil Nadu School Leadership Programme</p>
+                            </div>
+
+                            <!-- Story Sections Grid -->
+                            <div class="story-sections-grid">
+
+                                <div class="story-section scroll-reveal">
+                                    <div class="section-label">The behaviorist system we were working within</div>
+                                    <p>The Tamil Nadu school education system operates at a scale of 37,000 public schools and runs largely on behaviorist theory. This programme was mandatory for school leaders, and leaders understood that being seen as cooperative mattered for their reputation and career progression.</p>
+                                    <p>As designers we were caught between two different approaches — part of the system wanted visible outputs, checklists, and proof of compliance, while the other half wanted spaces for questioning, reinterpreting, and co-designing practice.</p>
+                                </div>
+
+                                <div class="story-section highlight-section scroll-reveal scroll-reveal-delay-1">
+                                    <div class="section-label">Where we tried to bring in constructivist elements</div>
+                                    <p>We used cases and dilemmas pulled directly from Tamil Nadu schools, asking leaders to interpret them through their own experience and debate different approaches in small groups. We saw headteachers describing failures, questioning assumptions, and collectively realizing they were spending almost no time in classrooms.</p>
+                                    <p>The challenge: many participants still approached the programme as training that tells them what to do. We realized that simply putting people in groups and calling it "collaborative learning" isn't enough. Social constructivism requires intentional design around norms, roles, and psychological safety.</p>
+                                </div>
+
+                                <div class="story-section scroll-reveal scroll-reveal-delay-2">
+                                    <div class="section-label">The cognitive load problem</div>
+                                    <p>We tried to activate prior knowledge — sessions began by asking leaders to map how they spend their time or describe a classroom observation. These helped surface existing mental models and created hooks for new concepts.</p>
+                                    <p>Where we struggled was sequencing. Leadership is inherently complex, and for leaders who had never reflected on instructional leadership or used student data beyond exam results, we were asking them to analyze and evaluate before they understood. Looking back, it was jumping cognitive levels too quickly. Lengthy slide decks, overlapping models, and quick shifts between formats made overload worse — especially for leaders working in a second language.</p>
+                                </div>
+
+                                <div class="story-section highlight-section scroll-reveal scroll-reveal-delay-3">
+                                    <div class="section-label">Where leaders actually are: The Dreyfus model</div>
+                                    <p>Most leaders fell between novice and advanced beginner. Novice leaders rely on rules and directives — when asked how they know learning is happening, they pointed to exam pass percentages. Advanced beginners recognized patterns. The competent group thought strategically.</p>
+                                    <p>The assumption we made during design was that participants were at least competent, when many were novices. We designed for 'competent' practitioners while working mainly with novices and advanced beginners. Novice leaders filled planning templates with generic phrases for lack of mental models; meanwhile, experienced leaders found parts too basic.</p>
+                                </div>
+
+                                <div class="story-section scroll-reveal">
+                                    <div class="section-label">What motivates leaders: Self-Determination Theory</div>
+                                    <p><strong>Autonomy</strong> was largely absent — leaders were nominated without consultation and attendance was mandatory. We created pockets of choice, but the framing of compulsion dominated. <strong>Competence</strong> was mixed: well-scaffolded modules gave leaders an "I can do this" moment, but overly abstract content left some overwhelmed. <strong>Relatedness</strong> had real strengths — the residential format meant leaders lived and learned together, though hierarchies sometimes limited openness.</p>
+                                    <p>But when sessions tapped intrinsic stories — leaders who were concerned for marginalized students, proud to be the first graduate in their family — engagement became authentic. They discussed making classrooms joyful, supporting struggling learners beyond just pass rates.</p>
+                                </div>
+
+                                <div class="story-section highlight-section scroll-reveal scroll-reveal-delay-1">
+                                    <div class="section-label">Working with cultural scripts</div>
+                                    <p>The programme sits within a culture where learning is transmission from authority. "Training" means experts lecturing, participants listening, then being tested. My instincts pushed in another direction — I wanted discussion, questions, and learning built together. But openly going against the usual way of teaching would not have been accepted.</p>
+                                    <p>So I stayed within the familiar format while gently changing it: short talks followed quickly by cases, using questions to surface ideas first. Deciding when to go along with these expectations and when to push back is still something I am figuring out.</p>
+                                </div>
+
+                                <div class="story-section scroll-reveal scroll-reveal-delay-2">
+                                    <div class="section-label">My expertise blind spots</div>
+                                    <p>I overestimated leaders' readiness for abstract concepts. Because I was comfortable with "data-driven instruction" or "growth mindset," I assumed presenting these would be enough. I underestimated how much misalignment is possible where basic infrastructure is a daily struggle.</p>
+                                    <p>I also underestimated the emotional work required. For a headteacher who built their identity around being a strict administrator, shifting towards collaborative leadership isn't just a technical change. They need space, safety, time and not just frameworks.</p>
+                                </div>
+
+                                <div class="story-section highlight-section scroll-reveal scroll-reveal-delay-3">
+                                    <div class="section-label">Moving forward</div>
+                                    <p>Learner variability matters far more than I understood. Designing for an "average" participant means designing for no one. The Dreyfus model shows that differentiation is essential for meeting people where they are.</p>
+                                    <p>This reflection has also clarified where I am in my own learning journey. I signed up with decent conceptual understanding but almost no practical wisdom about designing at system scale. The gap between understanding a theory and applying it in a messy, politically charged context is real and I am still learning how to hold theoretical integrity and political reality in large-scale projects.</p>
+                                </div>
+
+                            </div>
+
+                            <!-- Key Insights -->
+                            <div class="insights-row">
+                                <div class="playful-insight insight-lightbulb scroll-reveal">
+                                    <div class="insight-icon">💡</div>
+                                    <div class="insight-content">
+                                        <p class="insight-label">The Core Tension</p>
+                                        <p>Behaviorism and constructivism are not just theoretical opposites — they describe real competing pressures in any large-scale programme. Small constructivist moves within a compliance-oriented environment can still create genuine learning: the right case study, a well-structured task, a moment of reflection.</p>
+                                    </div>
+                                </div>
+                                <div class="playful-insight insight-warning scroll-reveal scroll-reveal-delay-1">
+                                    <div class="insight-icon">⚠️</div>
+                                    <div class="insight-content">
+                                        <p class="insight-label">The Design Lesson</p>
+                                        <p>A smaller number of core ideas with more worked examples would have supported deeper schema building. Coverage is not the same as learning. The theories we read are not just abstract frameworks — they live in every design choice, every facilitation move, and every response to the room.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 2: Design -->
+                <div class="expandable-question-card collapsed">
+                    <div class="question-collapse-header">
+                        <span class="question-number">2</span>
+                        <div class="question-preview">
+                            <h4 class="question-title">Design</h4>
+                            <p class="question-source">Applying design models and designing for diverse learners</p>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand Design module">
+                            <span class="toggle-icon">+</span>
+                        </button>
+                    </div>
+                    <div class="question-expanded-content">
+                        <div class="question-body-playful">
+                            <p>[Reflection content coming soon]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 3: Develop -->
+                <div class="expandable-question-card collapsed">
+                    <div class="question-collapse-header">
+                        <span class="question-number">3</span>
+                        <div class="question-preview">
+                            <h4 class="question-title">Develop</h4>
+                            <p class="question-source">Creating media assets and designing for online modalities</p>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand Develop module">
+                            <span class="toggle-icon">+</span>
+                        </button>
+                    </div>
+                    <div class="question-expanded-content">
+                        <div class="question-body-playful">
+                            <p>[Reflection content coming soon]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 4: Deliver -->
+                <div class="expandable-question-card collapsed">
+                    <div class="question-collapse-header">
+                        <span class="question-number">4</span>
+                        <div class="question-preview">
+                            <h4 class="question-title">Deliver</h4>
+                            <p class="question-source">Sharing work, presenting the capstone, and gallery walk</p>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand Deliver module">
+                            <span class="toggle-icon">+</span>
+                        </button>
+                    </div>
+                    <div class="question-expanded-content">
+                        <div class="question-body-playful">
+                            <p>[Reflection content coming soon]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Module 5: Debrief -->
+                <div class="expandable-question-card collapsed">
+                    <div class="question-collapse-header">
+                        <span class="question-number">5</span>
+                        <div class="question-preview">
+                            <h4 class="question-title">Debrief</h4>
+                            <p class="question-source">Reflecting on the full journey through the practicum</p>
+                        </div>
+                        <button class="expand-toggle" aria-label="Expand Debrief module">
+                            <span class="toggle-icon">+</span>
+                        </button>
+                    </div>
+                    <div class="question-expanded-content">
+                        <div class="question-body-playful">
+                            <p>[Reflection content coming soon]</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    </div> <!-- End carousel-container -->
+
+
+    <!-- Project Modals (Moved outside carousel for accessibility) -->
+    <div id="project-modal-1" class="project-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <span class="modal-week">Week 1</span>
+                <h2>Number System Converter</h2>
+                <p class="modal-subtitle">First Encounter: Making Abstract Number Systems Tangible</p>
+            </div>
+            
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>The Pedagogical Challenge</h3>
+                    <p>Number systems beyond decimal feel abstract and disconnected from real-world computing. How do we help students understand The most fundamental challenge students face is the misconception that fractions and decimals are completely different types of numbers rather than different notations for representing the same quantities?</p>
+                </div>
+
+                <div class="modal-section highlight">
+                    <h3>Learning Objectives</h3>
+                    <p><strong>Students will be able to understand:</strong></p>
+                    <ul>
+                        <li><strong>EQUIVALENCE</strong> Different fractions can represent the same quantity (equivalent fractions)</li>
+                        <li><strong>FRACTION-DECIMAL CONNECTION</strong> The same quantity can be represented as a fraction or a decimal</li>
+                        <li><strong>VISUAL PROOF</strong> Physical models (fraction strips) help us see and prove mathematical relationships</li>
+                        <li><strong>MATHEMATICAL PATTERNS</strong> Predictable patterns exist in fraction-decimal relationships </li>
+                        </ul>  
+ 
+
+                </div>
+
+                <div class="modal-section">
+                    <h3>Pedagogical Approach</h3>
+                    <p><strong>Concrete-to-Abstract Progression:</strong> Students start with visual fraction strips (concrete) before moving to symbolic notation (abstract), building conceptual understanding before procedural fluency.</p>
+                    <p><strong>Multiple Representations:</strong> The same quantity appears simultaneously as a visual model (fraction strips), symbolic fraction, and decimal number reinforcing that these are different notations for the same mathematical idea.</p>
+                    <p><strong>Discovery Through Interaction:</strong> Rather than being told "1/2 = 0.5," students physically manipulate fraction strips to discover equivalent fractions and their decimal representations, making abstract concepts tangible.</p>
+                    <p><strong>Pattern Recognition:</strong> Interactive exploration reveals mathematical patterns (e.g., halving denominators, decimal equivalents) that build number sense rather than rote memorization.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>The Solution</h3>
+                    <p>An interactive fraction visualizer that lets students explore fraction equivalence and fraction-decimal relationships through manipulable fraction strips with instant visual feedback.</p>
+                    <div class="feature-list">
+                        <div class="feature">📏 Interactive fraction strips (halves, thirds, fourths, fifths, etc.)</div>
+                        <div class="feature">🔄 Click to compare and find equivalent fractions</div>
+                        <div class="feature">🔢 Instant decimal conversion showing relationships</div>
+                        <div class="feature">🎨 Child-friendly design with engaging animations</div>
+                    </div>
+                </div>
+
+                <div class="modal-section highlight">
+                    <h3>How AI Helped</h3>
+                    <blockquote>
+                        "AI allowed me to rapidly prototype an interactive fraction visualizer using p5.js without getting bogged down in technical details. I could focus on the pedagogical questions: Which fractions should students explore first? How do we make equivalence visually obvious? What interactions build deep understanding?"
+                    </blockquote>
+                    <div class="ai-contributions">
+                        <p><strong>AI's Role:</strong></p>
+                        <ul>
+                            <li>Translated fraction strip visualizations into working p5.js code</li>
+                            <li>Handled interactive click detection and comparison logic</li>
+                            <li>Created smooth animations showing fraction relationships</li>
+                            <li>Freed time to focus on learning design rather than debugging syntax</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Time Reallocation: The Key Insight</h3>
+                    <div class="time-comparison">
+                        <div class="time-col">
+                            <h4>Without AI</h4>
+                            <ul>
+                                <li>⏰ Hours learning p5.js graphics from scratch</li>
+                                <li>🐛 Hours debugging fraction strip rendering</li>
+                                <li>😓 Result: Maybe working, definitely exhausted</li>
+                            </ul>
+                        </div>
+                        <div class="time-col">
+                            <h4>With AI</h4>
+                            <ul>
+                                <li>⚡ Minutes explaining visual requirements</li>
+                                <li>✅ Minutes iterating on interaction design</li>
+                                <li>😊 Result: Functional + time for pedagogy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>What I Learned</h3>
+                    <p>This was my first experience using AI as a <strong>rapid prototyping partner</strong>. Instead of spending hours on technical setup, I could immediately test pedagogical ideas: "What if students could overlay fraction strips?" "How do we show decimal equivalents without overwhelming them?"</p>
+                    <p class="learning-insight">The speed of iteration meant I could actually <em>try different approaches</em> and choose the one that best supported student understanding. This is the real power and not just faster coding, but faster learning design.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Student Impact</h3>
+                    <div class="impact-points">
+                        <div class="impact">👀 Visual proof makes equivalence concrete and memorable</div>
+                        <div class="impact">🤔 Hands-on exploration builds conceptual understanding</div>
+                        <div class="impact">🔗 Connects fraction and decimal notation naturally</div>
+                        <div class="impact">🎯 Pattern discovery develops true number sense</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project-modal-2" class="project-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <span class="modal-week">Week 5</span>
+                <h2>Integer Matching Space Game</h2>
+                <p class="modal-subtitle">Evolution: Becoming an AI-Educator Partner</p>
+            </div>
+            
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>The Pedagogical Challenge</h3>
+                    <p>Negative numbers are abstract and hard for students to visualize. How do we make the concept of "below zero" concrete and spatially intuitive?</p>
+                </div>
+
+                <div class="modal-section highlight">
+                    <h3>Learning Objectives</h3>
+                    <p><strong>Students will be able to:</strong></p>
+                    <ul>
+                        <li><strong>Understand</strong> the concept of positive and negative integers on a number line</li>
+                        <li><strong>Visualize</strong> negative numbers as positions below zero using spatial metaphors</li>
+                        <li><strong>Match</strong> numerical representations with visual models and written descriptions</li>
+                        <li><strong>Apply</strong> integer concepts to real-world scenarios (elevation, temperature, depth)</li>
+                        <li><strong>Recognize</strong> patterns in how integers relate to zero as a reference point</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Pedagogical Approach</h3>
+                    <p><strong>Concrete-to-Abstract Progression:</strong> The space elevator metaphor provides a concrete, relatable model before introducing abstract numerical concepts. Students can "see" negative numbers as physical positions.</p>
+                    <p><strong>Multiple Representations:</strong> By matching three different representations (numeral, visual, description), students build flexible mental models and deeper understanding of what negative numbers mean.</p>
+                    <p><strong>Spatial Reasoning:</strong> Using vertical space (up/down) leverages students' intuitive understanding of physical height and depth, making abstract mathematics tangible.</p>
+                    <p><strong>Active Discovery:</strong> Through gameplay, students discover patterns and relationships rather than being told rules, promoting constructivist learning.</p>
+                    <p><strong>Immediate Feedback:</strong> Game mechanics provide instant feedback on matches, allowing students to self-correct and refine their understanding through iteration.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>The Solution: Space as Metaphor</h3>
+                    <blockquote>
+                        "The space theme naturally reinforced the concept of positive and negative integers - with the space station at zero, going up for positive numbers, and down for negative numbers."
+                    </blockquote>
+                    
+                    <div class="game-mechanics">
+                        <h4>Three-Card Matching System</h4>
+                        <div class="mechanics-grid">
+                            <div class="mechanic">
+                                <span class="mechanic-icon">🔢</span>
+                                <p><strong>Number Card</strong><br>e.g., "-3"</p>
+                            </div>
+                            <div class="mechanic">
+                                <span class="mechanic-icon">🚀</span>
+                                <p><strong>Visual Card</strong><br>Spaceship position on number line</p>
+                            </div>
+                            <div class="mechanic">
+                                <span class="mechanic-icon">📝</span>
+                                <p><strong>Description Card</strong><br>Text with space icons</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pedagogical-reasoning">
+                        <h4>Why This Works</h4>
+                        <ul>
+                            <li><strong>Multiple Representations:</strong> Same concept across numbers, visuals, and language</li>
+                            <li><strong>Spatial Understanding:</strong> Up/down movement mirrors number line</li>
+                            <li><strong>Visual Coding:</strong> Cyan/white for positive, orange/red for negative</li>
+                            <li><strong>Active Learning:</strong> Students discover patterns through gameplay</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="modal-section highlight">
+                    <h3>AI as Structure-Builder</h3>
+                    <blockquote>
+                        "Claude excelled as both a technical guide for Phaser and an instructional design partner. It helped me structure the game logic, debug animation issues, and most importantly, think through which features would best support student learning."
+                    </blockquote>
+                    
+                    <div class="ai-partnership">
+                        <h4>The Breakthrough Insight</h4>
+                        <p class="insight-text">"The AI was particularly valuable in <strong>bridging the gap between my educational goals and the technical implementation</strong>."</p>
+                        <p>By Week 5, I wasn't just asking AI to code but I was having pedagogical conversations. "Which features support learning?" became a question we explored together, with AI offering technical possibilities and me making educational decisions.</p>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>The Challenge That Taught Me Most</h3>
+                    <blockquote>
+                        "Playtesting was challenging because I had to manually click through all card combinations to verify the matching logic worked correctly for all 6 sets."
+                    </blockquote>
+                    <p>This reveals pedagogical rigor: AI didn't magically solve everything. I still needed to test, verify, and ensure the game actually taught what I intended. Some work remains necessarily human.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Evolution of My Process</h3>
+                    <p>By Week 5, I was:</p>
+                    <div class="evolution-points">
+                        <div class="evolution-point">
+                            <span class="evo-icon">💻</span>
+                            <p>Using Phaser confidently (technical growth)</p>
+                        </div>
+                        <div class="evolution-point">
+                            <span class="evo-icon">🎯</span>
+                            <p>Thinking "features that support learning" (pedagogical focus)</p>
+                        </div>
+                        <div class="evolution-point">
+                            <span class="evo-icon">⚖️</span>
+                            <p>Balancing technical and educational goals</p>
+                        </div>
+                        <div class="evolution-point">
+                            <span class="evo-icon">🗺️</span>
+                            <p>Making strategic MLP decisions (essential vs. future)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Student Impact</h3>
+                    <div class="impact-quote">
+                        "The visual animations showing the spaceship moving on the number line after each match helps make abstract math concepts concrete and memorable for students."
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project-modal-3" class="project-modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header">
+                <span class="modal-week">Week 6</span>
+                <h2>Prime Numbers Space Shooter</h2>
+                <p class="modal-subtitle">Mastery: Rapid Prototyping Enables Pedagogical Experimentation</p>
+            </div>
+            
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>The Pedagogical Challenge</h3>
+                    <p>Prime numbers feel abstract and intimidating. Students memorize lists without understanding <em>why</em> a number is prime. How do we make prime number identification intuitive through gameplay?</p>
+                </div>
+
+                <div class="modal-section highlight">
+                    <h3>Learning Objectives</h3>
+                    <p><strong>Students will be able to:</strong></p>
+                    <ul>
+                        <li><strong>Identify</strong> prime numbers accurately and efficiently through repeated practice</li>
+                        <li><strong>Distinguish</strong> between prime and composite numbers in real-time decision-making</li>
+                        <li><strong>Understand</strong> why a number is or isn't prime using factorization reasoning</li>
+                        <li><strong>Recognize</strong> special prime categories (Mersenne primes, twin primes, palindromic primes)</li>
+                        <li><strong>Apply</strong> divisibility rules and mental math strategies to determine primality</li>
+                        <li><strong>Develop</strong> fluency and confidence with number properties through gamified practice</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Pedagogical Approach</h3>
+                    <p><strong>Scaffolded Learning:</strong> The hint system provides just-in-time support by showing prime factorization, helping students understand the "why" behind composite numbers rather than just memorizing.</p>
+                    <p><strong>Spaced Practice:</strong> Gameplay naturally creates spaced repetition as numbers appear repeatedly across rounds, strengthening long-term retention of prime number patterns.</p>
+                    <p><strong>Gamification for Motivation:</strong> Leaderboards, achievements, and progression systems tap into intrinsic motivation, making practice feel like play rather than drill-and-kill.</p>
+                    <p><strong>Adaptive Challenge:</strong> Multiple difficulty levels allow students to work within their zone of proximal development, preventing frustration and boredom.</p>
+                    <p><strong>Conceptual Depth:</strong> Special prime achievements (Mersenne, twin primes) introduce advanced concepts to high-achieving students, providing extension opportunities within the same platform.</p>
+                    <p><strong>Immediate Feedback Loop:</strong> Real-time consequences (score changes, visual feedback) create tight feedback loops that accelerate learning and pattern recognition.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>The Transformation</h3>
+                    <blockquote class="transformation-quote">
+                        "My previous experience creating interactive websites was honestly pretty complicated... But now? It feels like I can create a small game-based learning platform in just a couple of hours, even if I only have a rough idea to start with. That transformation is what makes it magical to me."
+                    </blockquote>
+                </div>
+
+                <div class="modal-section">
+                    <h3>The Game Concept</h3>
+                    <p>A math-educational space shooter where players identify and destroy prime numbers while avoiding composites, featuring multiple game modes and difficulty levels.</p>
+                    
+                    <div class="game-features">
+                        <h4>Advanced Pedagogical Features</h4>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <span class="feature-icon">💡</span>
+                                <h5>Hint System</h5>
+                                <p>Prime factorization hints help students understand <em>why</em> a number isn't prime</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🏆</span>
+                                <h5>Achievement Tracking</h5>
+                                <p>Special primes (Mersenne, twin primes) unlock deeper mathematical concepts</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">📊</span>
+                                <h5>Leaderboard</h5>
+                                <p>Motivates practice and improvement over time</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🎮</span>
+                                <h5>Multiple Modes</h5>
+                                <p>Adaptive difficulty meets students where they are</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section highlight">
+                    <h3>The Shift in My Role</h3>
+                    <blockquote>
+                        "The detailed, phase-by-phase prompts made development incredibly efficient. Instead of figuring out architecture and features incrementally, having comprehensive blueprints for each phase allowed me to build the game quickly and cohesively. The brainstorming session created a complete roadmap before any coding began."
+                    </blockquote>
+                    
+                    <div class="role-shift">
+                        <h4>I Became the Architect. AI Became the Builder.</h4>
+                        <p>By Week 6, I was planning strategically <em>before</em> coding. I designed:</p>
+                        <ul>
+                            <li>Phase-by-phase development roadmap</li>
+                            <li>Learning science-based feature prioritization</li>
+                            <li>Engagement mechanics (achievements, progression, hints)</li>
+                            <li>Assessment through gameplay data</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Why This Shows Growth</h3>
+                    <div class="growth-timeline">
+                        <div class="growth-stage">
+                            <h5>1. Strategic Design</h5>
+                            <p>Planned phases BEFORE coding (architectural thinking)</p>
+                        </div>
+                        <div class="growth-stage">
+                            <h5>2. Learning Science</h5>
+                            <p>Features designed to reinforce learning, not just entertain</p>
+                        </div>
+                        <div class="growth-stage">
+                            <h5>3. Engagement Mechanics</h5>
+                            <p>Leaderboards, challenges, progression systems</p>
+                        </div>
+                        <div class="growth-stage">
+                            <h5>4. Rapid Iteration</h5>
+                            <p>Built quickly → more time to refine pedagogy</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>The Balance: Fun + Learning</h3>
+                    <blockquote>
+                        "The game successfully balances fun gameplay with math learning. Students engage with prime numbers naturally through gameplay rather than feeling like they're doing homework."
+                    </blockquote>
+                    <p class="insight-text">This is the <strong>educator's expertise</strong> that AI cannot replace. Knowing the difference between a game that teaches and a game that distracts requires pedagogical judgment honed through experience.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Vision for Future Development</h3>
+                    <div class="future-features">
+                        <div class="future-feature">📚 <strong>Tutorial Mode:</strong> Teaching prime concepts before gameplay</div>
+                        <div class="future-feature">📈 <strong>Progress Dashboard:</strong> Visualize improvement trends</div>
+                        <div class="future-feature">🔢 <strong>Prime Encyclopedia:</strong> Clickable database of prime types</div>
+                        <div class="future-feature">👥 <strong>Multiplayer:</strong> Collaborative classroom mode</div>
+                        <div class="future-feature">📱 <strong>Mobile Controls:</strong> Tablet and phone compatibility</div>
+                    </div>
+                    <p class="future-note">These ideas show <strong>pedagogical thinking</strong> beyond what AI suggested, proof that the educator remains the visionary.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Harvard Graduate School of Education</h3>
+                    <p>T-127: Teaching and Learning Lab Practicum &middot; Spring 2026</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/Anitha-76/EdM-Math-Learning" target="_blank">View GitHub Repository →</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 | Built with HTML, CSS, and JavaScript </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
