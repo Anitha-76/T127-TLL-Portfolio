@@ -432,7 +432,56 @@
                     </div>
                     <div class="question-expanded-content">
                         <div class="question-body-playful">
-                            <p>[Reflection content coming soon]</p>
+
+                            <!-- Story Sections Grid -->
+                            <div class="story-sections-grid">
+
+                                <div class="story-section scroll-reveal">
+                                    <div class="section-label">Where the project started</div>
+                                    <p>This project began with an open-ended idea of building a pre-course microlearning unit for incoming T127 students, using the main course itself as the context to shape and design this introductory unit. The intention was to reduce friction and make students aware of what the course is, what is expected, and what the desired outcomes are. I was given two areas to work on: higher-ed learning design in the TLL context, and portfolio planning. However, translating that into a learnable, interactive experience was not discussed or planned in detail. A lot of the early work was just figuring out what this microlearning module should look like and how it could be meaningfully translated for the upcoming cohort.</p>
+                                </div>
+
+                                <div class="story-section highlight-section scroll-reveal scroll-reveal-delay-1">
+                                    <div class="section-label">Building and breaking the prototype</div>
+                                    <p>I started by trying to see how it would actually look. My first attempt was a single self-contained HTML file covering five sections for the two assigned areas: TLL myth and reality flip cards, a learning science primer, a constraint scenario, a reflection prompt, and a portfolio planning activity. I kept everything in one file to test it quickly in SWIFT's Advanced HTML block, which works best without external dependencies. What I did not expect was how many versions it would take to get there. I went through four versions before anything worked the way I wanted it to. It was frustrating, mostly because I came in thinking the hard part would be the content. It turned out the hard part was the code. But the fourth version confirmed that JavaScript-based interactions, including the flip card animation, would survive inside the platform, and that felt like a real breakthrough.</p>
+                                </div>
+
+                                <div class="story-section scroll-reveal scroll-reveal-delay-2">
+                                    <div class="section-label">Migrating to the LXP and thinking in layers</div>
+                                    <p>Once the prototype was stable, I migrated the single file into the HTML teaching element in the LXP. Unfortunately, the limitations of the iframe did not allow it to work as a single file. I had to split it into three separate HTML, CSS, and JS files. This turned out to be a conscious decision in hindsight. Keeping the CSS separate meant the style could be kept consistent across all the pages in this module, and the interactivity remained in the designer's control. It also pushed me to think in layers: structure, style, behavior. When something broke, I knew exactly where to look.</p>
+                                    <p>There was another challenge when multiple activities sat on the same LXP page: they caused style collisions. Everything used generic class names like .tll-wrap or .tll-body, and the browser had no way to tell them apart. I started prefixing every class and ID with an activity-specific label, like tll-a2p1- or tll-a2p3-. This is what keeps them from interfering with each other across pages.</p>
+                                </div>
+
+                                <div class="story-section highlight-section scroll-reveal scroll-reveal-delay-3">
+                                    <div class="section-label">The HTML vs H5P question</div>
+                                    <p>Visual consistency across activities was something I cared about from the start. I wanted a learner moving from Activity 1 to Activity 2 to feel like they were in the same space. The crimson gradient header, the blush body background, the card styles and all of it carries through. What I am still uncertain about is how to make this consistent with pages built in H5P. Right now, the module has pages in different visual styles, and that is something I need to resolve.</p>
+                                    <p>I made a conscious decision to stay with HTML, CSS, and JavaScript rather than moving to H5P, even though the TLL already uses H5P. My activities have a visual identity and interaction logic which I am not sure H5P templates can accommodate without significant custom development. H5P content is more portable, easier to hand off, and built with accessibility in mind and I want to be careful about overstating my choice. A more realistic path forward is fixing the CSS to bring visual consistency across both approaches, rather than rebuilding the HTML pages themselves.</p>
+                                </div>
+
+                                <div class="story-section scroll-reveal">
+                                    <div class="section-label">The Gallery Walk and what I wished for</div>
+                                    <p>I went into this project knowing very little about front-end development. I learned by doing, by breaking things, by asking questions, and by looking closely at what worked and what did not. It gave me a real learning trajectory, from being a novice to building something that actually works in a live platform. That, I think, is exactly what T127 is designed to do.</p>
+                                    <p>The Gallery Walk had genuine strengths. Seeing other teams' work up close, moving between projects, and getting spontaneous reactions from people encountering our work for the first time were all valuable in ways a formal presentation would not have allowed. That said, with two people working on a small project, repeating the same explanation to each new visitor felt more like a handover than a conversation. I genuinely wanted more back and forth, more pushback, more of the kind of exchange that would have helped me think differently about the work. Presenting the prototype to TLL team experts for their feedback, for instance, would have created a steeper and more useful learning curve.</p>
+                                </div>
+
+                            </div>
+
+                            <!-- Key Insights -->
+                            <div class="insights-row">
+                                <div class="playful-insight insight-lightbulb scroll-reveal">
+                                    <div class="insight-content">
+                                        <p class="insight-label">The Technical Lesson</p>
+                                        <p>Thinking in layers: structure, style, behavior that turned a challenging constraint into a cleaner architecture. When something broke, I knew exactly where to look.</p>
+                                    </div>
+                                </div>
+                                <div class="playful-insight insight-warning scroll-reveal scroll-reveal-delay-1">
+                                    <div class="insight-content">
+                                        <p class="insight-label">The Ongoing Question</p>
+                                        <p>The Gallery Walk gave me reactions. What I wanted was pushback. I think I learn more from the moments that felt uncomfortable than from the ones that felt affirming.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
