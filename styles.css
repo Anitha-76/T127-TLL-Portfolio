@@ -766,6 +766,18 @@ img {
     border-top: 4px solid var(--accent-orange);
 }
 
+.capstone-project-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.capstone-project-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 140, 66, 0.2);
+}
+
 .capstone-project-header {
     padding: var(--spacing-md);
     background: linear-gradient(135deg, #FF8C4215 0%, #FFB36615 100%);
@@ -2267,6 +2279,10 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
+}
+
+.story-sections-single {
+    grid-template-columns: 1fr;
 }
 
 .story-section {
